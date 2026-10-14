@@ -1,0 +1,22 @@
+select, select::picker(select) {
+  appearance: base-select;
+}
+
+select::picker(select) {
+  border: 1px solid #5c5792;
+  border-radius: 8px;
+  padding: 4px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+select option {
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+select option:hover, 
+select option:checked {
+  background-color: #5c5792; /* Bleu */
+  color: #ffffff;
+}

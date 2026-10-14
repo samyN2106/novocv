@@ -1,0 +1,12 @@
+.bloc {
+  /* 1. Pour Firefox */
+  scrollbar-width: none;
+  
+  /* 2. Pour Internet Explorer et Edge anciens */
+  -ms-overflow-style: none;  
+}
+
+/* 3. Pour Chrome, Safari et les versions récentes de Edge (moteur Chromium) */
+.bloc::-webkit-scrollbar {
+  display: none;
+}
