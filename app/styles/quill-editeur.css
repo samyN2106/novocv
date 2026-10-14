@@ -1,0 +1,51 @@
+.ql-container{
+  height: 220px;
+}
+
+.quill{
+  box-shadow: 0px 0px 4px 0px #e2e2e2;
+  border-radius: 10px !important;
+} 
+
+
+.ql-toolbar  .ql-stroke {
+  stroke: #353941; /* Un gris foncé moderne au lieu du noir */
+  stroke-width: 2px; /* Optionnel : rend les lignes de l'icône plus épaisses */
+}
+
+.ql-toolbar button:hover , .ql-toolbar .ql-picker-item:hover, .ql-toolbar .ql-picker-label:hover{
+  .ql-stroke{
+    stroke: #5c5792 !important;
+  }
+  .ql-fill{
+    stroke: #5c5792 !important;
+  }
+} 
+
+.ql-toolbar button.ql-active,.ql-toolbar .ql-picker-label.ql-active{
+  .ql-stroke{
+    stroke: #5c5792 !important;
+  }
+  .ql-fill{
+    stroke: #5c5792 !important;
+  }
+} 
+
+.ql-snow .ql-tooltip.ql-editing a.ql-action:after{
+background-color: #5c5792 !important;
+padding: 5 10 !important;
+color: white !important;
+border-radius: 7px !important;
+font-weight: 600 !important;
+}
+
+.ql-snow .ql-tooltip.ql-editing input[type="text"]{
+  outline: none;
+}
+
+
+.ql-container.ql-snow{
+  border-radius: 10px  !important;
+  font-size: 17px !important;
+  border: 1px solid #e5e7eb;
+}

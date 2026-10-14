@@ -1,0 +1,32 @@
+.sketch{
+  border-radius: 10px !important;
+    font-weight: 800 !important;
+    color: black !important;
+}
+
+.sketch div:nth-child(1){
+  padding: 0 0 5px 0 !important;
+}
+
+.sketch div:nth-child(1)  div:nth-child(2){padding: 0 5px;}
+
+.sketch div:nth-child(1) div:nth-child(1){
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.sketch div:nth-child(1) div:nth-child(1) div:nth-child(1){
+  border-radius: 50% !important;
+}
+
+.sketch div:nth-child(1) div:nth-child(2) div:nth-child(1) div:nth-child(1) div:nth-child(1){
+  border-radius:10px !important ;
+}
+
+.sketch div:nth-child(1) div:nth-child(2) div:nth-child(1) div:nth-child(2) div:nth-child(1){
+  border-radius:10px !important ;
+}
+
+.sketch div:nth-child(1) div:nth-child(2) div:nth-child(2) div:nth-child(2) , .sketch div:nth-child(1) div:nth-child(2) div:nth-child(2){
+  border-radius: 50% !important ;
+}
